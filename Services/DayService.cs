@@ -15,7 +15,9 @@ namespace DOA.Services
     
             Task<Day[]> DisplayAllDaysAsync()
             {
-                    
+                    var items = await _db.AllDays
+                    .ToArrayAsync();
+                    return items;   
             }
     
     }
