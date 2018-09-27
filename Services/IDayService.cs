@@ -5,7 +5,7 @@ namespace DOA.Services
 
     public class IDayService 
     {
-        Task<AllDays[]> DisplayAllDaysAsync();
+        Task<Day[]> DisplayAllDaysAsync();
     }
 
 }
